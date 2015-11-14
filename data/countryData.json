@@ -31,6 +31,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.0878912529"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.10580903"
             },
             "2005": {
@@ -105,6 +110,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.9719004152"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "2.4203877978"
             },
             "2005": {
@@ -177,6 +187,11 @@
                 "internet": "1.5916412604"
             },
             "2003": {
+                "research": "0.1962299943",
+                "education": "11.738240242",
+                "internet": "2.1953597309"
+            },
+            "2004": {
                 "research": "0.1635700017",
                 "education": "N/A",
                 "internet": "4.6344750878"
@@ -255,6 +270,11 @@
                 "education": "N/A",
                 "internet": "N/A"
             },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "N/A"
+            },
             "2005": {
                 "research": "N/A",
                 "education": "N/A",
@@ -325,6 +345,11 @@
                 "internet": "11.260468717"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "13.5464128764"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "10.4492197037",
                 "internet": "26.8379543895"
@@ -401,6 +426,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.3706820652"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.464814618"
             },
             "2005": {
@@ -475,6 +505,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "17.2286487817"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "24.2665437162"
             },
             "2005": {
@@ -547,6 +582,11 @@
                 "internet": "10.8821243775"
             },
             "2003": {
+                "research": "0.4101299942",
+                "education": "10.915019989",
+                "internet": "11.913696551"
+            },
+            "2004": {
                 "research": "0.4375599921",
                 "education": "9.4388198853",
                 "internet": "16.0366841055"
@@ -621,6 +661,11 @@
                 "internet": "1.9604050458"
             },
             "2003": {
+                "research": "0.2397100031",
+                "education": "N/A",
+                "internet": "4.5752172248"
+            },
+            "2004": {
                 "research": "0.2120099962",
                 "education": "N/A",
                 "internet": "4.8990085713"
@@ -696,6 +741,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "N/A",
+                "internet": "20.8"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "11.4143199921",
                 "internet": "23"
             },
@@ -769,6 +819,11 @@
                 "internet": "N/A"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "N/A"
+            },
+            "2004": {
                 "research": "1.8575899601",
                 "education": "N/A",
                 "internet": "N/A"
@@ -843,6 +898,11 @@
                 "internet": "36.56"
             },
             "2003": {
+                "research": "2.2409200668",
+                "education": "22.6907100677",
+                "internet": "42.7"
+            },
+            "2004": {
                 "research": "2.2366299629",
                 "education": "22.0940704346",
                 "internet": "54.28"
@@ -917,6 +977,11 @@
                 "internet": "4.9997136781"
             },
             "2003": {
+                "research": "0.3249599934",
+                "education": "N/A",
+                "internet": "N/A"
+            },
+            "2004": {
                 "research": "0.2983100116",
                 "education": "N/A",
                 "internet": "N/A"
@@ -993,6 +1058,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "20"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "22"
             },
             "2005": {
@@ -1065,6 +1135,11 @@
                 "internet": "18.0507208881"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "21.5549449918"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "21.4586805077"
@@ -1141,6 +1216,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.1638776655"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.1990363337"
             },
             "2005": {
@@ -1213,6 +1293,11 @@
                 "internet": "27.8363224241"
             },
             "2003": {
+                "research": "N/A",
+                "education": "19.1844997406",
+                "internet": "39.689627116"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "19.6062793732",
                 "internet": "49.8"
@@ -1287,6 +1372,11 @@
                 "internet": "8.9509713147"
             },
             "2003": {
+                "research": "0.6114699841",
+                "education": "N/A",
+                "internet": "N/A"
+            },
+            "2004": {
                 "research": "0.6275900006",
                 "education": "N/A",
                 "internet": "N/A"
@@ -1361,6 +1451,11 @@
                 "internet": "46.33"
             },
             "2003": {
+                "research": "1.874819994",
+                "education": "19.266740799",
+                "internet": "49.97"
+            },
+            "2004": {
                 "research": "1.8550800085",
                 "education": "19.2654895782",
                 "internet": "53.86"
@@ -1436,6 +1531,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "N/A",
+                "internet": "N/A"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "11.9164495468",
                 "internet": "9.8"
             },
@@ -1509,6 +1609,11 @@
                 "internet": "0.7029455951"
             },
             "2003": {
+                "research": "N/A",
+                "education": "11.1980495453",
+                "internet": "0.9513271149"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "12.0348596573",
                 "internet": "1.1825409652"
@@ -1584,6 +1689,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "N/A",
+                "internet": "56.5220121836"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "9.4073600769",
                 "internet": "60.9908670086"
             },
@@ -1657,6 +1767,11 @@
                 "internet": "1.6758025838"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "2.4369123995"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "8.1514501572",
                 "internet": "3.1569841961"
@@ -1732,6 +1847,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "16.567489624",
+                "internet": "3.5085964007"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "N/A",
                 "internet": "4.4399246012"
             },
@@ -1805,6 +1925,11 @@
                 "internet": "2.6482679136"
             },
             "2003": {
+                "research": "0.0185400005",
+                "education": "N/A",
+                "internet": "3.9650368339"
+            },
+            "2004": {
                 "research": "0.0161099993",
                 "education": "N/A",
                 "internet": "15.4689716228"
@@ -1881,6 +2006,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "3.3451901741"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "3.3048892532"
             },
             "2005": {
@@ -1953,6 +2083,11 @@
                 "internet": "9.1494250856"
             },
             "2003": {
+                "research": "0.9579200149",
+                "education": "N/A",
+                "internet": "13.2075861035"
+            },
+            "2004": {
                 "research": "0.89951998",
                 "education": "12.7963199615",
                 "internet": "19.0736722744"
@@ -2027,6 +2162,11 @@
                 "internet": "15.3298798557"
             },
             "2003": {
+                "research": "0.0184199996",
+                "education": "N/A",
+                "internet": "19.5950032207"
+            },
+            "2004": {
                 "research": "0.0370099992",
                 "education": "N/A",
                 "internet": "29.7156041448"
@@ -2101,6 +2241,11 @@
                 "internet": "9.08"
             },
             "2003": {
+                "research": "0.4831100106",
+                "education": "17.9841308594",
+                "internet": "12.04"
+            },
+            "2004": {
                 "research": "0.4871500134",
                 "education": "11.3013296127",
                 "internet": "18.13"
@@ -2175,6 +2320,11 @@
                 "internet": "0.2009925979"
             },
             "2003": {
+                "research": "0.2711899877",
+                "education": "N/A",
+                "internet": "0.3734403032"
+            },
+            "2004": {
                 "research": "0.2419700027",
                 "education": "N/A",
                 "internet": "0.4002952855"
@@ -2250,6 +2400,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "N/A",
+                "internet": "0.2012731967"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "14.7123498917",
                 "internet": "0.3490604619"
             },
@@ -2323,6 +2478,11 @@
                 "internet": "3.518757175"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "4.3248853905"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "17.2112503052",
                 "internet": "5.3188320696"
@@ -2399,6 +2559,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.2605701976"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.3004366444"
             },
             "2005": {
@@ -2473,6 +2638,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.5876226111"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.9760754155"
             },
             "2005": {
@@ -2545,6 +2715,11 @@
                 "internet": "61.5932992682"
             },
             "2003": {
+                "research": "2.0352399349",
+                "education": "N/A",
+                "internet": "64.2"
+            },
+            "2004": {
                 "research": "2.0666899681",
                 "education": "N/A",
                 "internet": "65.9559634649"
@@ -2623,6 +2798,11 @@
                 "education": "N/A",
                 "internet": "N/A"
             },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "N/A"
+            },
             "2005": {
                 "research": "N/A",
                 "education": "N/A",
@@ -2693,6 +2873,11 @@
                 "internet": "0.1285371165"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "0.1515633379"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "0.2234013955"
@@ -2767,6 +2952,11 @@
                 "internet": "0.1660696647"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "0.3203085554"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "5.5142102242",
                 "internet": "0.360920107"
@@ -2845,6 +3035,11 @@
                 "education": "N/A",
                 "internet": "N/A"
             },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "N/A"
+            },
             "2005": {
                 "research": "N/A",
                 "education": "N/A",
@@ -2915,6 +3110,11 @@
                 "internet": "22.1"
             },
             "2003": {
+                "research": "N/A",
+                "education": "14.3068599701",
+                "internet": "25.4737788865"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "12.1336803436",
                 "internet": "28.1779101232"
@@ -2989,6 +3189,11 @@
                 "internet": "4.5957043308"
             },
             "2003": {
+                "research": "1.1335599422",
+                "education": "N/A",
+                "internet": "6.2"
+            },
+            "2004": {
                 "research": "1.2298899889",
                 "education": "N/A",
                 "internet": "7.3"
@@ -3063,6 +3268,11 @@
                 "internet": "4.6"
             },
             "2003": {
+                "research": "0.1404300034",
+                "education": "N/A",
+                "internet": "7.3889237105"
+            },
+            "2004": {
                 "research": "0.1420100033",
                 "education": "15.9412899017",
                 "internet": "9.118690303"
@@ -3139,6 +3349,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.8481893702"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "1.3273271779"
             },
             "2005": {
@@ -3211,6 +3426,11 @@
                 "internet": "0.0927907025"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "0.1349148374"
+            },
+            "2004": {
                 "research": "0.4234800041",
                 "education": "N/A",
                 "internet": "0.1962083752"
@@ -3287,6 +3507,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.4600141868"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "1.0775049296"
             },
             "2005": {
@@ -3359,6 +3584,11 @@
                 "internet": "19.8948511346"
             },
             "2003": {
+                "research": "0.3568199873",
+                "education": "N/A",
+                "internet": "20.3336148144"
+            },
+            "2004": {
                 "research": "0.373180002",
                 "education": "16.9294300079",
                 "internet": "20.7923067056"
@@ -3435,6 +3665,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.7586696295"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.8492824147"
             },
             "2005": {
@@ -3507,6 +3742,11 @@
                 "internet": "17.76"
             },
             "2003": {
+                "research": "0.9649199843",
+                "education": "N/A",
+                "internet": "22.75"
+            },
+            "2004": {
                 "research": "1.0451500416",
                 "education": "N/A",
                 "internet": "30.91"
@@ -3581,6 +3821,11 @@
                 "internet": "3.7705850377"
             },
             "2003": {
+                "research": "0.5824300051",
+                "education": "N/A",
+                "internet": "5.2412690537"
+            },
+            "2004": {
                 "research": "0.6023100019",
                 "education": "40.5676803589",
                 "internet": "8.407984759"
@@ -3659,6 +3904,11 @@
                 "education": "N/A",
                 "internet": "N/A"
             },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "N/A"
+            },
             "2005": {
                 "research": "N/A",
                 "education": "N/A",
@@ -3729,6 +3979,11 @@
                 "internet": "28.32"
             },
             "2003": {
+                "research": "0.3476899862",
+                "education": "23.4063491821",
+                "internet": "30.09"
+            },
+            "2004": {
                 "research": "0.3675499856",
                 "education": "22.0826892853",
                 "internet": "33.83"
@@ -3803,6 +4058,11 @@
                 "internet": "23.93"
             },
             "2003": {
+                "research": "1.1995999813",
+                "education": "11.7316503525",
+                "internet": "34.3"
+            },
+            "2004": {
                 "research": "1.1977100372",
                 "education": "11.6501197815",
                 "internet": "35.5"
@@ -3877,6 +4137,11 @@
                 "internet": "64.25"
             },
             "2003": {
+                "research": "2.5754899979",
+                "education": "N/A",
+                "internet": "76.26"
+            },
+            "2004": {
                 "research": "2.484869957",
                 "education": "24.2206802368",
                 "internet": "80.93"
@@ -3953,6 +4218,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.6259402294"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.7813171751"
             },
             "2005": {
@@ -4025,6 +4295,11 @@
                 "internet": "18.4248927671"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "23.620419853"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "30.3196130922"
@@ -4100,6 +4375,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "N/A",
+                "internet": "7.8983929372"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "4.5882101059",
                 "internet": "8.8655534607"
             },
@@ -4173,6 +4453,11 @@
                 "internet": "4.2607969152"
             },
             "2003": {
+                "research": "0.0573499985",
+                "education": "N/A",
+                "internet": "4.4602283447"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "4.8344426376"
@@ -4247,6 +4532,11 @@
                 "internet": "2.7199997147"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "4.0378851071"
+            },
+            "2004": {
                 "research": "0.2699399889",
                 "education": "N/A",
                 "internet": "11.92"
@@ -4321,6 +4611,11 @@
                 "internet": "1.9"
             },
             "2003": {
+                "research": "N/A",
+                "education": "9.3617801666",
+                "internet": "2.5"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "3.2"
@@ -4397,6 +4692,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.520524272"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.8439302846"
             },
             "2005": {
@@ -4469,6 +4769,11 @@
                 "internet": "0.2270901376"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "N/A"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "9.0370597839",
                 "internet": "N/A"
@@ -4543,6 +4848,11 @@
                 "internet": "41.52"
             },
             "2003": {
+                "research": "0.7668899894",
+                "education": "19.0791893005",
+                "internet": "45.32"
+            },
+            "2004": {
                 "research": "0.8538900018",
                 "education": "18.7196807861",
                 "internet": "53.2"
@@ -4619,6 +4929,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.1058116588"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.1553345208"
             },
             "2005": {
@@ -4691,6 +5006,11 @@
                 "internet": "53.2992218314"
             },
             "2003": {
+                "research": "0.8611699939",
+                "education": "N/A",
+                "internet": "58.9126409695"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "66.5335994677"
@@ -4766,6 +5086,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "N/A",
+                "internet": "6.7254347382"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "17.3947696686",
                 "internet": "7.4129434854"
             },
@@ -4839,6 +5164,11 @@
                 "internet": "62.43"
             },
             "2003": {
+                "research": "3.4391400814",
+                "education": "17.7046203613",
+                "internet": "69.22"
+            },
+            "2004": {
                 "research": "3.4501600266",
                 "education": "17.7809295654",
                 "internet": "72.39"
@@ -4913,6 +5243,11 @@
                 "internet": "30.18"
             },
             "2003": {
+                "research": "2.1770300865",
+                "education": "17.6706905365",
+                "internet": "36.14"
+            },
+            "2004": {
                 "research": "2.1559100151",
                 "education": "17.8818206787",
                 "internet": "39.15"
@@ -4989,6 +5324,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "14.1242937853"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "17.8845374264"
             },
             "2005": {
@@ -5061,6 +5401,11 @@
                 "internet": "1.9395301062"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "2.6595865939"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "2.9790698004"
@@ -5136,6 +5481,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "5.0972299576",
+                "internet": "2.4367811931"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "4.3020200729",
                 "internet": "3.3080034781"
             },
@@ -5209,6 +5559,11 @@
                 "internet": "1.5878756298"
             },
             "2003": {
+                "research": "0.2176000029",
+                "education": "N/A",
+                "internet": "2.5588164807"
+            },
+            "2004": {
                 "research": "0.2442000061",
                 "education": "N/A",
                 "internet": "3.8862213535"
@@ -5283,6 +5638,11 @@
                 "internet": "48.82"
             },
             "2003": {
+                "research": "2.5396299362",
+                "education": "N/A",
+                "internet": "55.9"
+            },
+            "2004": {
                 "research": "2.5033900738",
                 "education": "N/A",
                 "internet": "64.73"
@@ -5358,6 +5718,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "N/A",
+                "internet": "1.193057911"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "23.2690391541",
                 "internet": "1.7167977039"
             },
@@ -5431,6 +5796,11 @@
                 "internet": "14.67"
             },
             "2003": {
+                "research": "0.5722500086",
+                "education": "N/A",
+                "internet": "17.8"
+            },
+            "2004": {
                 "research": "0.5564100146",
                 "education": "N/A",
                 "internet": "21.42"
@@ -5505,6 +5875,11 @@
                 "internet": "44.1547890284"
             },
             "2003": {
+                "research": "0.5551699996",
+                "education": "N/A",
+                "internet": "54.5342598294"
+            },
+            "2004": {
                 "research": "0.7158100009",
                 "education": "N/A",
                 "internet": "56.0990147611"
@@ -5579,6 +5954,11 @@
                 "internet": "14.7588405455"
             },
             "2003": {
+                "research": "N/A",
+                "education": "8.7883796692",
+                "internet": "18.6451821831"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "19.5706205844"
@@ -5655,6 +6035,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "33.7166817881"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "36.1617878388"
             },
             "2005": {
@@ -5727,6 +6112,11 @@
                 "internet": "3.3917462702"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "4.5488549085"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "5.3840699196",
                 "internet": "5.1"
@@ -5803,6 +6193,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.4509603708"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.5088193323"
             },
             "2005": {
@@ -5877,6 +6272,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "1.3541974776"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "1.8081422034"
             },
             "2005": {
@@ -5949,6 +6349,11 @@
                 "internet": "N/A"
             },
             "2003": {
+                "research": "N/A",
+                "education": "18.3369293213",
+                "internet": "N/A"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "N/A"
@@ -6025,6 +6430,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "1.6473583456"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "5.4012619076"
             },
             "2005": {
@@ -6097,6 +6507,11 @@
                 "internet": "2.5974025974"
             },
             "2003": {
+                "research": "0.0421499982",
+                "education": "N/A",
+                "internet": "4.8"
+            },
+            "2004": {
                 "research": "0.0415499993",
                 "education": "N/A",
                 "internet": "5.6"
@@ -6171,6 +6586,11 @@
                 "internet": "43.0823830279"
             },
             "2003": {
+                "research": "0.6802700162",
+                "education": "13.8610696793",
+                "internet": "52.2000433497"
+            },
+            "2004": {
                 "research": "0.721759975",
                 "education": "14.9077796936",
                 "internet": "56.3998803935"
@@ -6245,6 +6665,11 @@
                 "internet": "16.67"
             },
             "2003": {
+                "research": "0.9380499721",
+                "education": "21.5189704895",
+                "internet": "21.63"
+            },
+            "2004": {
                 "research": "0.8784199953",
                 "education": "23.0938091278",
                 "internet": "27.74"
@@ -6319,6 +6744,11 @@
                 "internet": "79.12"
             },
             "2003": {
+                "research": "2.8188099861",
+                "education": "23.4571990967",
+                "internet": "83.14"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "23.6098899841",
                 "internet": "83.88"
@@ -6393,6 +6823,11 @@
                 "internet": "1.5378755818"
             },
             "2003": {
+                "research": "0.706889987",
+                "education": "10.985329628",
+                "internet": "1.6864899706"
+            },
+            "2004": {
                 "research": "0.7438499928",
                 "education": "N/A",
                 "internet": "1.9761364919"
@@ -6469,6 +6904,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "2.3870197796"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "2.6002858763"
             },
             "2005": {
@@ -6541,6 +6981,11 @@
                 "internet": "4.6261751149"
             },
             "2003": {
+                "research": "0.6745100021",
+                "education": "11.240530014",
+                "internet": "6.933721953"
+            },
+            "2004": {
                 "research": "0.5874199867",
                 "education": "11.6681203842",
                 "internet": "7.49"
@@ -6617,6 +7062,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.6"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.9"
             },
             "2005": {
@@ -6689,6 +7139,11 @@
                 "internet": "25.85"
             },
             "2003": {
+                "research": "1.1638599634",
+                "education": "12.8971300125",
+                "internet": "34.31"
+            },
+            "2004": {
                 "research": "1.2267299891",
                 "education": "13.6459503174",
                 "internet": "36.99"
@@ -6767,6 +7222,11 @@
                 "education": "N/A",
                 "internet": "N/A"
             },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "N/A"
+            },
             "2005": {
                 "research": "N/A",
                 "education": "N/A",
@@ -6837,6 +7297,11 @@
                 "internet": "17.764599063"
             },
             "2003": {
+                "research": "4.1650800705",
+                "education": "21.9738998413",
+                "internet": "19.593393658"
+            },
+            "2004": {
                 "research": "4.1459999084",
                 "education": "21.128320694",
                 "internet": "22.7704855254"
@@ -6911,6 +7376,11 @@
                 "internet": "28.04"
             },
             "2003": {
+                "research": "1.1006400585",
+                "education": "24.0890197754",
+                "internet": "29.04"
+            },
+            "2004": {
                 "research": "1.0912699699",
                 "education": "23.6278705597",
                 "internet": "33.24"
@@ -6986,6 +7456,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "12.4675397873",
+                "internet": "7.8"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "10.1161403656",
                 "internet": "10"
             },
@@ -7059,6 +7534,11 @@
                 "internet": "46.594201118"
             },
             "2003": {
+                "research": "3.1438798904",
+                "education": "22.5845298767",
+                "internet": "48.43526589"
+            },
+            "2004": {
                 "research": "3.1331999302",
                 "education": "22.3382606506",
                 "internet": "62.3939296327"
@@ -7134,6 +7614,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "15.7747097015",
+                "internet": "8.4660050162"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "14.5481700897",
                 "internet": "11.6587413706"
             },
@@ -7207,6 +7692,11 @@
                 "internet": "1.6747709952"
             },
             "2003": {
+                "research": "0.2524600029",
+                "education": "N/A",
+                "internet": "2.0004147527"
+            },
+            "2004": {
                 "research": "0.2483700067",
                 "education": "N/A",
                 "internet": "2.650394657"
@@ -7282,6 +7772,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "23.2159309387",
+                "internet": "2.941902861"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "24.1559200287",
                 "internet": "3.0235280421"
             },
@@ -7355,6 +7850,11 @@
                 "internet": "2.5"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "3"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "3.5"
@@ -7433,6 +7933,11 @@
                 "education": "N/A",
                 "internet": "0"
             },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "0"
+            },
             "2005": {
                 "research": "N/A",
                 "education": "N/A",
@@ -7503,6 +8008,11 @@
                 "internet": "59.4"
             },
             "2003": {
+                "research": "2.4857699871",
+                "education": "16.6514797211",
+                "internet": "65.5"
+            },
+            "2004": {
                 "research": "2.6829800606",
                 "education": "17.0533103943",
                 "internet": "72.7"
@@ -7581,6 +8091,11 @@
                 "education": "N/A",
                 "internet": "N/A"
             },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "N/A"
+            },
             "2005": {
                 "research": "N/A",
                 "education": "N/A",
@@ -7651,6 +8166,11 @@
                 "internet": "10.2489679289"
             },
             "2003": {
+                "research": "0.1434700042",
+                "education": "16.1746997833",
+                "internet": "22.4029383805"
+            },
+            "2004": {
                 "research": "0.1300999969",
                 "education": "13.9274902344",
                 "internet": "22.927112036"
@@ -7725,6 +8245,11 @@
                 "internet": "2.99926518"
             },
             "2003": {
+                "research": "0.2227199972",
+                "education": "N/A",
+                "internet": "3.9087662683"
+            },
+            "2004": {
                 "research": "0.1992599964",
                 "education": "N/A",
                 "internet": "5.0903853073"
@@ -7801,6 +8326,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.3339124664"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.3614344903"
             },
             "2005": {
@@ -7873,6 +8403,11 @@
                 "internet": "21.94"
             },
             "2003": {
+                "research": "0.3780800104",
+                "education": "20.2219200134",
+                "internet": "26.98"
+            },
+            "2004": {
                 "research": "0.4179199934",
                 "education": "20.2165107727",
                 "internet": "38.58"
@@ -7949,6 +8484,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "8"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "9"
             },
             "2005": {
@@ -8021,6 +8561,11 @@
                 "internet": "1.0839431374"
             },
             "2003": {
+                "research": "0.0513099991",
+                "education": "N/A",
+                "internet": "1.5324965902"
+            },
+            "2004": {
                 "research": "0.0677300021",
                 "education": "N/A",
                 "internet": "2.1755243393"
@@ -8097,6 +8642,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.0318689345"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.0310111848"
             },
             "2005": {
@@ -8169,6 +8719,11 @@
                 "internet": "2.2444182217"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "2.8145179874"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "3.5328381615"
@@ -8244,6 +8799,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "11.0829696655",
+                "internet": "58.8096918372"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "10.7272796631",
                 "internet": "64.0074481394"
             },
@@ -8317,6 +8877,11 @@
                 "internet": "17.69"
             },
             "2003": {
+                "research": "0.6703000069",
+                "education": "14.2086601257",
+                "internet": "25.91"
+            },
+            "2004": {
                 "research": "0.7539299726",
                 "education": "14.6737298965",
                 "internet": "31.23"
@@ -8391,6 +8956,11 @@
                 "internet": "39.84"
             },
             "2003": {
+                "research": "1.6489800215",
+                "education": "N/A",
+                "internet": "54.55"
+            },
+            "2004": {
                 "research": "1.631289959",
                 "education": "N/A",
                 "internet": "65.88"
@@ -8465,6 +9035,11 @@
                 "internet": "25.1718801643"
             },
             "2003": {
+                "research": "0.0649600029",
+                "education": "7.7118201256",
+                "internet": "25.7421239826"
+            },
+            "2004": {
                 "research": "0.0554499999",
                 "education": "N/A",
                 "internet": "31.4840973824"
@@ -8539,6 +9114,11 @@
                 "internet": "17.33"
             },
             "2003": {
+                "research": "0.2190600038",
+                "education": "N/A",
+                "internet": "19.07"
+            },
+            "2004": {
                 "research": "0.239470005",
                 "education": "N/A",
                 "internet": "24.44"
@@ -8613,6 +9193,11 @@
                 "internet": "0.3397201546"
             },
             "2003": {
+                "research": "0.3384099901",
+                "education": "6.9711699486",
+                "internet": "0.4232524193"
+            },
+            "2004": {
                 "research": "0.2235299945",
                 "education": "8.8536996841",
                 "internet": "0.5253536549"
@@ -8689,6 +9274,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.2788151163"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.347505335"
             },
             "2005": {
@@ -8761,6 +9351,11 @@
                 "internet": "32.3382043389"
             },
             "2003": {
+                "research": "N/A",
+                "education": "17.8894405365",
+                "internet": "34.9711523397"
+            },
+            "2004": {
                 "research": "0.5999000072",
                 "education": "14.0643596649",
                 "internet": "42.2522656295"
@@ -8835,6 +9430,11 @@
                 "internet": "5.3477651689"
             },
             "2003": {
+                "research": "N/A",
+                "education": "13.8738098145",
+                "internet": "5.9765928499"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "13.2991800308",
                 "internet": "6.5882548753"
@@ -8911,6 +9511,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.3103644432"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.4328196399"
             },
             "2005": {
@@ -8983,6 +9588,11 @@
                 "internet": "28.92"
             },
             "2003": {
+                "research": "0.2526699901",
+                "education": "N/A",
+                "internet": "31.64"
+            },
+            "2004": {
                 "research": "0.529120028",
                 "education": "13.0599603653",
                 "internet": "34.62"
@@ -9059,6 +9669,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "2.5697503671"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "3.5997768138"
             },
             "2005": {
@@ -9133,6 +9748,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.4240048958"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.4814704382"
             },
             "2005": {
@@ -9205,6 +9825,11 @@
                 "internet": "10.2526246719"
             },
             "2003": {
+                "research": "0.3380599916",
+                "education": "13.087849617",
+                "internet": "12.1871062041"
+            },
+            "2004": {
                 "research": "0.3793199956",
                 "education": "12.8699102402",
                 "internet": "13.6890885885"
@@ -9279,6 +9904,11 @@
                 "internet": "11.9"
             },
             "2003": {
+                "research": "0.384160012",
+                "education": "14.8188896179",
+                "internet": "12.9"
+            },
+            "2004": {
                 "research": "0.3918899894",
                 "education": "14.2095403671",
                 "internet": "14.1"
@@ -9355,6 +9985,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "9.2325021004"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "11.0178673082"
             },
             "2005": {
@@ -9427,6 +10062,11 @@
                 "internet": "3.7872427989"
             },
             "2003": {
+                "research": "0.3240500093",
+                "education": "N/A",
+                "internet": "7.4075445842"
+            },
+            "2004": {
                 "research": "0.3490299881",
                 "education": "N/A",
                 "internet": "10.6293908417"
@@ -9501,6 +10141,11 @@
                 "internet": "48.047117173"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "49.4911689195"
+            },
+            "2004": {
                 "research": "0.0371900015",
                 "education": "3.4865999222",
                 "internet": "52.4901966839"
@@ -9575,6 +10220,11 @@
                 "internet": "2.0395726035"
             },
             "2003": {
+                "research": "0.2518000007",
+                "education": "N/A",
+                "internet": "N/A"
+            },
+            "2004": {
                 "research": "0.2677699924",
                 "education": "11.4828300476",
                 "internet": "N/A"
@@ -9649,6 +10299,11 @@
                 "internet": "N/A"
             },
             "2003": {
+                "research": "0.7977399826",
+                "education": "N/A",
+                "internet": "N/A"
+            },
+            "2004": {
                 "research": "1.0187200308",
                 "education": "N/A",
                 "internet": "25.3500686036"
@@ -9723,6 +10378,11 @@
                 "internet": "2.3732531924"
             },
             "2003": {
+                "research": "0.6590899825",
+                "education": "16.4873008728",
+                "internet": "3.3533666812"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "16.5661506653",
                 "internet": "11.607934773"
@@ -9799,6 +10459,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.4195388439"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.6794478354"
             },
             "2005": {
@@ -9871,6 +10536,11 @@
                 "internet": "0.0004264935"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "0.0240641491"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "0.024337392"
@@ -9946,6 +10616,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "18.6775093079",
+                "internet": "3.3598398855"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "N/A",
                 "internet": "3.8047156153"
             },
@@ -10020,6 +10695,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "10.7898302078",
+                "internet": "0.382810917"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "N/A",
                 "internet": "0.4498436512"
             },
@@ -10093,6 +10773,11 @@
                 "internet": "61.29"
             },
             "2003": {
+                "research": "1.9180400372",
+                "education": "17.594669342",
+                "internet": "64.35"
+            },
+            "2004": {
                 "research": "1.9277900457",
                 "education": "17.1999702454",
                 "internet": "68.52"
@@ -10169,6 +10854,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "26.4083344704"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "30.2980462088"
             },
             "2005": {
@@ -10241,6 +10931,11 @@
                 "internet": "59.0807532813"
             },
             "2003": {
+                "research": "1.1598500013",
+                "education": "18.3883495331",
+                "internet": "60.9625398664"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "18.9520492554",
                 "internet": "61.8476278106"
@@ -10316,6 +11011,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "N/A",
+                "internet": "1.8804125324"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "6.8500900269",
                 "internet": "2.3206646086"
             },
@@ -10390,6 +11090,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "24.929309845",
+                "internet": "0.1556987037"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "N/A",
                 "internet": "0.1899337337"
             },
@@ -10463,6 +11168,11 @@
                 "internet": "0.3204619755"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "0.5585762449"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "1.2861376413"
@@ -10541,6 +11251,11 @@
                 "education": "N/A",
                 "internet": "N/A"
             },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "N/A"
+            },
             "2005": {
                 "research": "N/A",
                 "education": "N/A",
@@ -10611,6 +11326,11 @@
                 "internet": "72.84"
             },
             "2003": {
+                "research": "1.7092900276",
+                "education": "21.2086906433",
+                "internet": "78.13"
+            },
+            "2004": {
                 "research": "1.5707700253",
                 "education": "19.9095191956",
                 "internet": "77.69"
@@ -10687,6 +11407,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "7.2557429454"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "6.7588521702"
             },
             "2005": {
@@ -10759,6 +11484,11 @@
                 "internet": "2.5774267368"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "5.0411581259"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "6.1643209853"
@@ -10835,6 +11565,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "21.6015271777"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "26.9703326341"
             },
             "2005": {
@@ -10907,6 +11642,11 @@
                 "internet": "8.5180778152"
             },
             "2003": {
+                "research": "0.3399800062",
+                "education": "N/A",
+                "internet": "9.9874240772"
+            },
+            "2004": {
                 "research": "0.2397899926",
                 "education": "10.0518703461",
                 "internet": "11.1408625409"
@@ -10983,6 +11723,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "1.374404668"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "1.5079127723"
             },
             "2005": {
@@ -11055,6 +11800,11 @@
                 "internet": "1.7949695977"
             },
             "2003": {
+                "research": "0.0716300011",
+                "education": "11.1383695602",
+                "internet": "2.1119420821"
+            },
+            "2004": {
                 "research": "0.0726599991",
                 "education": "9.9752902985",
                 "internet": "3.4524384314"
@@ -11129,6 +11879,11 @@
                 "internet": "8.9669491704"
             },
             "2003": {
+                "research": "0.1035299972",
+                "education": "6.7732400894",
+                "internet": "11.6"
+            },
+            "2004": {
                 "research": "0.1492500007",
                 "education": "7.3071699142",
                 "internet": "14.1"
@@ -11203,6 +11958,11 @@
                 "internet": "4.3322757464"
             },
             "2003": {
+                "research": "0.1299400032",
+                "education": "11.4117498398",
+                "internet": "4.8576722671"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "8.9808101654",
                 "internet": "5.2436284522"
@@ -11277,6 +12037,11 @@
                 "internet": "21.15"
             },
             "2003": {
+                "research": "0.5406100154",
+                "education": "22.7937393188",
+                "internet": "24.87"
+            },
+            "2004": {
                 "research": "0.5576099753",
                 "education": "22.7100601196",
                 "internet": "32.53"
@@ -11351,6 +12116,11 @@
                 "internet": "19.37"
             },
             "2003": {
+                "research": "0.7106500268",
+                "education": "21.8402805328",
+                "internet": "29.67"
+            },
+            "2004": {
                 "research": "0.7436400056",
                 "education": "21.7847309113",
                 "internet": "31.78"
@@ -11427,6 +12197,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "19.7070256578"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "22.1307382347"
             },
             "2005": {
@@ -11501,6 +12276,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "19.242336421"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "20.7016478512"
             },
             "2005": {
@@ -11573,6 +12353,11 @@
                 "internet": "6.58"
             },
             "2003": {
+                "research": "0.3860000074",
+                "education": "11.9339504242",
+                "internet": "8.9"
+            },
+            "2004": {
                 "research": "0.3851999938",
                 "education": "9.7620601654",
                 "internet": "15"
@@ -11647,6 +12432,11 @@
                 "internet": "4.128271818"
             },
             "2003": {
+                "research": "1.2860300541",
+                "education": "N/A",
+                "internet": "8.2988606155"
+            },
+            "2004": {
                 "research": "1.1513299942",
                 "education": "N/A",
                 "internet": "12.8593889008"
@@ -11723,6 +12513,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.3569184673"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.4308542434"
             },
             "2005": {
@@ -11795,6 +12590,11 @@
                 "internet": "2.2448326758"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "2.7996304488"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "3.0755294104"
@@ -11871,6 +12671,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "50.0034530387"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "50.5663430421"
             },
             "2005": {
@@ -11945,6 +12750,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "10.161844307"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "13.3228526892"
             },
             "2005": {
@@ -12017,6 +12827,11 @@
                 "internet": "6.3847050196"
             },
             "2003": {
+                "research": "0.0626899973",
+                "education": "N/A",
+                "internet": "8.0015828909"
+            },
+            "2004": {
                 "research": "0.0531499982",
                 "education": "N/A",
                 "internet": "10.234532997"
@@ -12093,6 +12908,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "2.1014364299"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "4.3860239801"
             },
             "2005": {
@@ -12165,6 +12985,11 @@
                 "internet": "N/A"
             },
             "2003": {
+                "research": "0.5650600195",
+                "education": "N/A",
+                "internet": "N/A"
+            },
+            "2004": {
                 "research": "0.3200399876",
                 "education": "N/A",
                 "internet": "23.5"
@@ -12239,6 +13064,11 @@
                 "internet": "14.304170831"
             },
             "2003": {
+                "research": "0.4133499861",
+                "education": "15.4128704071",
+                "internet": "14.5925043169"
+            },
+            "2004": {
                 "research": "0.3465799987",
                 "education": "N/A",
                 "internet": "24.272139225"
@@ -12315,6 +13145,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.1901732817"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.2030076806"
             },
             "2005": {
@@ -12387,6 +13222,11 @@
                 "internet": "47"
             },
             "2003": {
+                "research": "2.0484499931",
+                "education": "N/A",
+                "internet": "53.8379432882"
+            },
+            "2004": {
                 "research": "2.1324100494",
                 "education": "N/A",
                 "internet": "62"
@@ -12465,6 +13305,11 @@
                 "education": "N/A",
                 "internet": "N/A"
             },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "N/A"
+            },
             "2005": {
                 "research": "N/A",
                 "education": "N/A",
@@ -12535,6 +13380,11 @@
                 "internet": "40.14"
             },
             "2003": {
+                "research": "0.5734500289",
+                "education": "12.5261602402",
+                "internet": "43.04"
+            },
+            "2004": {
                 "research": "0.5119299889",
                 "education": "11.5818500519",
                 "internet": "52.89"
@@ -12609,6 +13459,11 @@
                 "internet": "27.8388854181"
             },
             "2003": {
+                "research": "1.2686200142",
+                "education": "28.3855705261",
+                "internet": "31.854793012"
+            },
+            "2004": {
                 "research": "1.3936400414",
                 "education": "N/A",
                 "internet": "40.81"
@@ -12685,6 +13540,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.5556098819"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.6496726733"
             },
             "2005": {
@@ -12759,6 +13619,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.3761980025"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "1.0534547436"
             },
             "2005": {
@@ -12831,6 +13696,11 @@
                 "internet": "6.7103224371"
             },
             "2003": {
+                "research": "0.792320013",
+                "education": "12.3749303818",
+                "internet": "7.0076917261"
+            },
+            "2004": {
                 "research": "0.8485999703",
                 "education": "12.6589899063",
                 "internet": "8.4251186825"
@@ -12909,6 +13779,11 @@
                 "education": "N/A",
                 "internet": "N/A"
             },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "N/A"
+            },
             "2005": {
                 "research": "N/A",
                 "education": "N/A",
@@ -12979,6 +13854,11 @@
                 "internet": "20.39"
             },
             "2003": {
+                "research": "1.0488100052",
+                "education": "18.1693496704",
+                "internet": "39.93"
+            },
+            "2004": {
                 "research": "1.0633300543",
                 "education": "18.5235996246",
                 "internet": "44.01"
@@ -13053,6 +13933,11 @@
                 "internet": "1.0504227059"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "1.4585802284"
+            },
+            "2004": {
                 "research": "0.182099998",
                 "education": "N/A",
                 "internet": "1.4461599804"
@@ -13129,6 +14014,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "22.9697842928"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "24.7376775444"
             },
             "2005": {
@@ -13201,6 +14091,11 @@
                 "internet": "14.6418357747"
             },
             "2003": {
+                "research": "N/A",
+                "education": "13.4608602524",
+                "internet": "20.9824734633"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "13.4152202606",
                 "internet": "21.3952123628"
@@ -13279,6 +14174,11 @@
                 "education": "N/A",
                 "internet": "N/A"
             },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "N/A"
+            },
             "2005": {
                 "research": "N/A",
                 "education": "N/A",
@@ -13349,6 +14249,11 @@
                 "internet": "5.5495948796"
             },
             "2003": {
+                "research": "N/A",
+                "education": "19.709569931",
+                "internet": "6.4622741666"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "7.371165842"
@@ -13425,6 +14330,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.5384717032"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.7915616154"
             },
             "2005": {
@@ -13497,6 +14407,11 @@
                 "internet": "4.161568745"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "4.7198753953"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "6.0760478144"
@@ -13572,6 +14487,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "11.1853504181",
+                "internet": "2.4370738506"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "12.5832595825",
                 "internet": "3.2286850732"
             },
@@ -13645,6 +14565,11 @@
                 "internet": "70.57"
             },
             "2003": {
+                "research": "3.802670002",
+                "education": "21.8415908813",
+                "internet": "79.13"
+            },
+            "2004": {
                 "research": "3.5750699043",
                 "education": "23.5507202148",
                 "internet": "83.89"
@@ -13719,6 +14644,11 @@
                 "internet": "61.4"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "65.1"
+            },
+            "2004": {
                 "research": "2.8150999546",
                 "education": "N/A",
                 "internet": "67.8"
@@ -13793,6 +14723,11 @@
                 "internet": "2.0931010186"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "3.3979726136"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "4.3215937779"
@@ -13871,6 +14806,11 @@
                 "education": "N/A",
                 "internet": "N/A"
             },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "N/A"
+            },
             "2005": {
                 "research": "N/A",
                 "education": "N/A",
@@ -13941,6 +14881,11 @@
                 "internet": "0.055462827"
             },
             "2003": {
+                "research": "0.0688999966",
+                "education": "N/A",
+                "internet": "0.0645837772"
+            },
+            "2004": {
                 "research": "0.0669699982",
                 "education": "N/A",
                 "internet": "0.0774799071"
@@ -14016,6 +14961,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "N/A",
+                "internet": "0.6769628565"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "14.4828796387",
                 "internet": "0.877574971"
             },
@@ -14089,6 +15039,11 @@
                 "internet": "7.5312503349"
             },
             "2003": {
+                "research": "0.2619200051",
+                "education": "N/A",
+                "internet": "9.2990272381"
+            },
+            "2004": {
                 "research": "0.2553499937",
                 "education": "14.3791303635",
                 "internet": "10.6773033237"
@@ -14167,6 +15122,11 @@
                 "education": "N/A",
                 "internet": "N/A"
             },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "N/A"
+            },
             "2005": {
                 "research": "N/A",
                 "education": "N/A",
@@ -14237,6 +15197,11 @@
                 "internet": "1"
             },
             "2003": {
+                "research": "N/A",
+                "education": "11.1057195663",
+                "internet": "1.2"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "8.4945697784",
                 "internet": "1.5"
@@ -14312,6 +15277,11 @@
             },
             "2003": {
                 "research": "N/A",
+                "education": "9.0826196671",
+                "internet": "2.9858173675"
+            },
+            "2004": {
+                "research": "N/A",
                 "education": "9.6538095474",
                 "internet": "3.9523738946"
             },
@@ -14385,6 +15355,11 @@
                 "internet": "21.9986754804"
             },
             "2003": {
+                "research": "0.1132500023",
+                "education": "11.2569103241",
+                "internet": "25.9717641092"
+            },
+            "2004": {
                 "research": "0.1149599999",
                 "education": "N/A",
                 "internet": "27.0242700783"
@@ -14459,6 +15434,11 @@
                 "internet": "5.2528872955"
             },
             "2003": {
+                "research": "0.6615200043",
+                "education": "18.3717403412",
+                "internet": "6.4908457953"
+            },
+            "2004": {
                 "research": "0.9011700153",
                 "education": "19.1546802521",
                 "internet": "8.5288177516"
@@ -14533,6 +15513,11 @@
                 "internet": "11.38"
             },
             "2003": {
+                "research": "0.4831100106",
+                "education": "N/A",
+                "internet": "12.33"
+            },
+            "2004": {
                 "research": "0.5183100104",
                 "education": "N/A",
                 "internet": "14.58"
@@ -14607,6 +15592,11 @@
                 "internet": "0.3021320162"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "0.4251826319"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "0.7540539827"
@@ -14685,6 +15675,11 @@
                 "education": "N/A",
                 "internet": "N/A"
             },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "N/A"
+            },
             "2005": {
                 "research": "N/A",
                 "education": "N/A",
@@ -14759,6 +15754,11 @@
                 "education": "N/A",
                 "internet": "N/A"
             },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "N/A"
+            },
             "2005": {
                 "research": "N/A",
                 "education": "N/A",
@@ -14829,6 +15829,11 @@
                 "internet": "0.384093505"
             },
             "2003": {
+                "research": "0.2561199963",
+                "education": "N/A",
+                "internet": "0.4648498401"
+            },
+            "2004": {
                 "research": "0.2605600059",
                 "education": "10.6581401825",
                 "internet": "0.7199706799"
@@ -14903,6 +15908,11 @@
                 "internet": "1.8738851164"
             },
             "2003": {
+                "research": "1.1117899418",
+                "education": "N/A",
+                "internet": "3.1481275882"
+            },
+            "2004": {
                 "research": "1.0815199614",
                 "education": "N/A",
                 "internet": "3.4894778813"
@@ -14979,6 +15989,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "29.4779534121"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "30.1312961695"
             },
             "2005": {
@@ -15051,6 +16066,11 @@
                 "internet": "56.48"
             },
             "2003": {
+                "research": "1.7324899435",
+                "education": "17.2570304871",
+                "internet": "64.82"
+            },
+            "2004": {
                 "research": "1.6692999601",
                 "education": "16.6928901672",
                 "internet": "65.61"
@@ -15125,6 +16145,11 @@
                 "internet": "58.7854038837"
             },
             "2003": {
+                "research": "2.5525300503",
+                "education": "20.3895301819",
+                "internet": "61.6971171244"
+            },
+            "2004": {
                 "research": "2.4895300865",
                 "education": "20.7992992401",
                 "internet": "64.758256476"
@@ -15199,6 +16224,11 @@
                 "internet": "11.4194701967"
             },
             "2003": {
+                "research": "N/A",
+                "education": "5.8526301384",
+                "internet": "15.937136716"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "7.3653001785",
                 "internet": "17.0630983404"
@@ -15275,6 +16305,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "1.9125951778"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "2.5937254208"
             },
             "2005": {
@@ -15347,6 +16382,11 @@
                 "internet": "3.5100387107"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "3.9032958454"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "4.7466026192"
@@ -15423,6 +16463,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "7.4999634652"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "8.4044695924"
             },
             "2005": {
@@ -15495,6 +16540,11 @@
                 "internet": "1.8549992359"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "3.7802808137"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "7.6424085284"
@@ -15571,6 +16621,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "27.4290729888"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "27.377008788"
             },
             "2005": {
@@ -15643,6 +16698,11 @@
                 "internet": "3.1000922351"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "4.1306163563"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "4.400904826"
@@ -15719,6 +16779,11 @@
             "2003": {
                 "research": "N/A",
                 "education": "N/A",
+                "internet": "0.6047341004"
+            },
+            "2004": {
+                "research": "N/A",
+                "education": "N/A",
                 "internet": "0.8812229887"
             },
             "2005": {
@@ -15791,6 +16856,11 @@
                 "internet": "0.4777509069"
             },
             "2003": {
+                "research": "0.0095699998",
+                "education": "N/A",
+                "internet": "0.9804830394"
+            },
+            "2004": {
                 "research": "0.0254200008",
                 "education": "7.8084897995",
                 "internet": "2.0135495322"
@@ -15865,6 +16935,11 @@
                 "internet": "3.9943561346"
             },
             "2003": {
+                "research": "N/A",
+                "education": "N/A",
+                "internet": "6.3947864585"
+            },
+            "2004": {
                 "research": "N/A",
                 "education": "N/A",
                 "internet": "6.5640450271"
