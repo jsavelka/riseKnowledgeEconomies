@@ -8,13 +8,13 @@
         barScaleRes,      // Cannot instantiate before the data are processed
         barScaleInet,     // Cannot instantiate before the data are processed
         margin      = {
-            top:    20,
-            right:  200,
-            bottom: 20,
-            left:   145
+            top:    10,
+            right:  140,
+            bottom: 0,
+            left:   140
         },
-        width       = 2175 - margin.right - margin.left,
-        height      = 2837 - margin.top - margin.bottom,
+        width       = 1482 - margin.right - margin.left,
+        height      = 2377 - margin.top - margin.bottom,
         x           = d3.scale.ordinal().rangeRoundBands([0, width]),
         xAxisTop    = d3.svg.axis()
             .scale(x)
@@ -37,7 +37,16 @@
             "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005",
             "2006", "2007", "2008", "2009", "2010", "2011", "2012"
         ],
-        curr_year   = years[0];
+        currYear    = years[0],
+        codeToName  = {},
+        tooltip     = d3.select("body")
+            .append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0),
+        countryDisp = d3.select("body")
+            .append("div")
+            .attr("class", "countryDisp")
+            .style("opacity", 0);
 
     // Setup of anything that can be set up before the data are received
     x.domain(years);
@@ -64,6 +73,7 @@
                 if (countryYear.internet > internetMax) {
                     internetMax = countryYear.internet };
             }
+            codeToName[country.code] = country.name;
         }
         countries = data.countries;
 
@@ -72,15 +82,15 @@
         barScaleEdu  = makeBarScale(educationMax);
         barScaleRes  = makeBarScale(researchMax);
         reloadData(y);
-        drawAxis(yAxis, "tl y axis", margin.left, margin.top);
+        drawAxis(yAxis, "tl y axis left", margin.left, margin.top);
 
         // Main loop for drawing the time line graphs
         for (var i = 0; i < years.length; i++) {
             var year = years[i];
-            curr_year = year;
+            currYear = year;
             reloadData(y);
             if (year !== years[years.length - 1]) {
-                curr_year = years[i + 1];
+                currYear = years[i + 1];
                 reloadData(yNext);
             }
             makeYear(year);
@@ -88,7 +98,7 @@
 
         // After loop processing (remaining axes)
         yAxis.orient("right");
-        drawAxis(yAxis, "tl y axis", margin.left + width, margin.top);
+        drawAxis(yAxis, "tl y axis right", margin.left + width, margin.top);
         drawAxis(xAxisTop, "tl x axis", margin.left, margin.top);
         drawAxis(xAxisBottom, "tl x axis", margin.left, margin.top + height);
     });
@@ -98,6 +108,7 @@
         // g container for a year (large column)
         var yearContainer = chart
             .append("g")
+            .attr("class", "tl country")
             .attr("transform", "translate(" + (margin.left + x(year))
                 + "," + margin.top + ")");
 
@@ -108,7 +119,7 @@
                 .enter()
                 .append("line")
                 .attr("class", function(d) {
-                    return "tl " + d.code;
+                    return "tl " + d.code + " unlocked";
                 })
                 .attr("x1", function(d) {
                     return barScaleRes(d[year].research)
@@ -123,7 +134,9 @@
                 })
                 .attr("y2", function(d) {
                     return yNext(d.name) + y.rangeBand() / 2;
-                });
+                })
+                .on("mouseover", colorBackgroundRectsAndLinks)
+                .on("mouseout", decolorBackgroundRectsAndLinks);
         }
 
         // g container for a single country
@@ -133,6 +146,24 @@
             .append("g")
             .attr("transform", function(d) {
                 return "translate(0," + y(d.name) + ")"
+            })
+            .on("mouseover", colorBackgroundRectsAndLinks)
+            .on("mouseout", decolorBackgroundRectsAndLinks)
+            .on("click", function(d) {
+                displayTooltip();
+                insertTooltipContent(d, year);
+                insertTooltipTemplate(d, year);
+                insertTooltipColorFixer(d);
+                tooltip.select("#tooltipTimeline")
+                    .on("click", function() {
+                        div.html("<h1>Lorem ipsum</h1>");
+                        insertTooltipTemplate();
+                    });
+                tooltip.select("#tooltipHome")
+                    .on("click", function() {
+                        div.html(home);
+                        insertTooltipTemplate();
+                    });
             });
 
         // background rectangle for a single country
@@ -144,7 +175,7 @@
             })
             .attr("height", y.rangeBand())
             .attr("class", function(d) {
-                return "tl " + d.code + " background";
+                return "tl " + d.code + " background unlocked";
             });
 
         // education rectangle for a single country
@@ -192,13 +223,22 @@
     }
 
     function compareCountries(firstCountry, secondCountry) {
-        var eduComp  = barScaleEdu(secondCountry[curr_year].education)
-            - barScaleEdu(firstCountry[curr_year].education);
-        var resComp  = barScaleRes(secondCountry[curr_year].research)
-            - barScaleRes(firstCountry[curr_year].research);
-        var inetComp = barScaleInet(secondCountry[curr_year].internet)
-            - barScaleInet(firstCountry[curr_year].internet);
-        return eduComp + resComp + inetComp;
+        var eduComp  = barScaleEdu(secondCountry[currYear].education)
+            - barScaleEdu(firstCountry[currYear].education);
+        var resComp  = barScaleRes(secondCountry[currYear].research)
+            - barScaleRes(firstCountry[currYear].research);
+        var inetComp = barScaleInet(secondCountry[currYear].internet)
+            - barScaleInet(firstCountry[currYear].internet);
+        var comparison = eduComp + resComp + inetComp;
+        if (comparison !== 0) {
+            return comparison;
+        } else {
+            if (firstCountry.name < secondCountry.name) {
+                return -1;
+            } else {
+                return 1;
+            }
+        }
     }
 
     function makeBarScale(max) {
@@ -227,6 +267,212 @@
             unavailable.add(value);
         } else {
             countryYear[value] = parseFloat(countryYear[value]);
+        }
+    }
+
+    function colorBackgroundRectsAndLinks(d) {
+                var selectedRects =
+                    chart.selectAll("rect." + d.code + ".background.unlocked");
+                var selectedLinks =
+                    chart.selectAll("line." + d.code + ".unlocked");
+                var leftLabels = chart.select("g.tl.y.axis.left")
+                    .selectAll(".tick");
+                var rightLabels = chart.select("g.tl.y.axis.right")
+                    .selectAll(".tick");
+                selectedLinks
+                    .style("stroke", "black")
+                    .style("stroke-width", "3");
+                selectedRects
+                    .style("fill", "black");
+                colorLabel(leftLabels, d.code);
+                colorLabel(rightLabels, d.code);
+                countryDisp.transition()
+                    .duration(500)
+                    .style("opacity", .8);
+                countryDisp.html(d.name)
+                    .style("left", "100%")
+                    .style("top", "100%");
+    }
+
+    function colorLabel(ticks, code) {
+        ticks.each(
+            function(label) {
+                if (codeToName[code] == label) {
+                    d3.select(this)
+                        .selectAll('text')
+                        .style("font-weight", "bold")
+                }
+            });
+    }
+
+    function decolorBackgroundRectsAndLinks(d) {
+                var selectedRects =
+                    chart.selectAll("rect." + d.code + ".background.unlocked");
+                var selectedLinks =
+                    chart.selectAll("line." + d.code + ".unlocked");
+                var leftLabels = chart.select("g.tl.y.axis.left")
+                    .selectAll(".tick");
+                var rightLabels = chart.select("g.tl.y.axis.right")
+                    .selectAll(".tick");
+                selectedLinks
+                    .style("stroke", "#BDBDBD")
+                    .style("stroke-width", "2");
+                selectedRects
+                    .style("fill", "#BDBDBD");
+                decolorLabel(leftLabels, d.code);
+                decolorLabel(rightLabels, d.code);
+                countryDisp.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+                countryDisp.transition()
+                    .delay(450)
+                    .style("left", "2000px");
+    }
+
+    function decolorLabel(ticks, code) {
+        ticks.each(
+            function(label) {
+                if (codeToName[code] == label) {
+                    d3.select(this)
+                        .selectAll('text')
+                        .style("font-weight", "normal")
+                }
+            });
+    }
+
+    function displayTooltip() {
+        tooltip.transition()
+            .duration(500)
+            .style("opacity", .8);
+        if (window.innerWidth > 1050 && window.innerHeight > 630) {
+            tooltip
+                .style("position", "fixed")
+                .style("left", "50%")
+                .style("top", "50%");
+        } else {
+            var doc = document.documentElement;
+            var l = (window.pageXOffset ||
+                     doc.scrollLeft) - (doc.clientLeft || 0);
+            var t = (window.pageYOffset ||
+                     doc.scrollTop)  - (doc.clientTop || 0);
+            tooltip
+                .style("position", "absolute")
+                .style("left", (l + 517) + "px")
+                .style("top", (t + 305) + "px");
+        }
+    }
+
+    function insertTooltipTemplate(d, year) {
+        var closeButton = tooltip.append("div")
+            .attr("id", "tooltipClose");
+        closeButton.append("h1")
+            .on("click", function() {
+                tooltip.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+                tooltip.transition()
+                    .delay(450)
+                    .style("position", "fixed")
+                    .style("left", "2000px");
+            })
+           .text("X");
+        var menu = tooltip.append("div")
+            .attr("id", "tooltipMenu");
+        menu.append("span")
+            .attr("class", "tooltipButton")
+            .text("| main ")
+            .on("click", function() {
+                tooltip.html("");
+                insertTooltipContent(d, year);
+                insertTooltipTemplate(d, year);
+                insertTooltipColorFixer(d);
+            });
+        menu.append("span")
+            .attr("class", "tooltipButton")
+            .text("| choropleth |")
+            .on("click", function() {
+                tooltip.html("");
+                insertTooltipTemplate(d, year);
+                insertTooltipColorFixer(d);
+                //someFunctionCall(d, year, countries); //d is the selected country, year is the selected year, countries is all the data
+            });
+    }
+
+    function insertTooltipColorFixer(d) {
+        tooltip.append("div")
+            .attr("class", "colorFixer void")
+            .on("click", createPathDecolorHandler(d));
+        tooltip.append("div")
+            .attr("class", "colorFixer red")
+            .on("click", createPathColorHandler(d, "#e41a1c"));
+        tooltip.append("div")
+            .attr("class", "colorFixer blue")
+            .on("click", createPathColorHandler(d, "#377eb8"));
+        tooltip.append("div")
+            .attr("class", "colorFixer green")
+            .on("click", createPathColorHandler(d, "#4daf4a"));
+        tooltip.append("div")
+            .attr("class", "colorFixer violet")
+            .on("click", createPathColorHandler(d, "#984ea3"));
+        tooltip.append("div")
+            .attr("class", "colorFixer orange")
+            .on("click", createPathColorHandler(d, "#ff7f00"));
+    }
+
+    function insertTooltipContent(d, year) {
+        var home = "<h1 align='center'><b>" + d.name + " (" + d.code  + ")" + " in " + year + "</b></h1>" +
+            "<h3>Government expenditure per student, primary<br>(% of GDP per capita)</h3>" +
+            "<p><div>Raw percentage: " + d[year].education.toFixed(1) + "%</div>" +
+            "<div>Difference to the best in " + year + ": " + d[year].education.toFixed(1) + "%</div>" +
+            "<div>Difference to the all time best: " + d[year].education.toFixed(1) + "%</div></p>" +
+            "<h3>Research and development expenditure<br>(% of GDP)</h3>" +
+            "<p><div>Raw percentage: " + d[year].research.toFixed(1) + "%</div>" +
+            "<div>Difference to the best in " + year + ": " + d[year].research.toFixed(1) + "%</div>" +
+            "<div>Difference to the all time best: " + d[year].research.toFixed(1) + "%</div></p>" +
+            "<h3>Interent users (%)</h3>" +
+            "<p><div>Raw percentage: " + d[year].internet.toFixed(1) + "%</div>" +
+            "<div>Difference to the best in " + year + ": " + d[year].internet.toFixed(1) + "%</div>" +
+            "<div>Difference to the all time best: " + d[year].internet.toFixed(1) + "%</div></p>";
+        tooltip.html(home);
+    }
+
+    function createPathColorHandler(d, color) {
+        return function() {
+            var selectedRects = chart
+                .selectAll("rect." + d.code + ".background");
+            var selectedLinks =
+                chart.selectAll("line." + d.code);
+            var leftLabels = chart.select("g.tl.y.axis.left")
+                .selectAll(".tick");
+            var rightLabels = chart.select("g.tl.y.axis.right")
+                .selectAll(".tick");
+            selectedLinks
+                .style("stroke", color)
+                .style("stroke-width", "3")
+                .attr("class", "tl line " + d.code + " locked");
+            selectedRects
+                .style("fill", color)
+                .attr("class", "tl rect " + d.code + " background locked");
+        }
+    }
+
+    function createPathDecolorHandler(d, color) {
+        return function() {
+            var selectedRects =
+                chart.selectAll("rect." + d.code + ".background.locked");
+            var selectedLinks =
+                chart.selectAll("line." + d.code + ".locked");
+            var leftLabels = chart.select("g.tl.y.axis.left")
+                .selectAll(".tick");
+            var rightLabels = chart.select("g.tl.y.axis.right")
+                .selectAll(".tick");
+            selectedLinks
+                .style("stroke", "#BDBDBD")
+                .style("stroke-width", "2")
+                .attr("class", "tl line " + d.code + " unlocked");
+            selectedRects
+                .style("fill", "#BDBDBD")
+                .attr("class", "tl rect " + d.code + " background locked");
         }
     }
 })();
