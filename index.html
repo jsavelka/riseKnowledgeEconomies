@@ -10,7 +10,30 @@
 </head>
 <body>
     <h1>Rise of Knowledge-based Economies</h1>
-    <svg id="timeLine" class="chart"></svg>
+    <div>
+        <table>
+            <tr>
+                <td><div class="legend" id="legendEducation"></div></td>
+                <td>Government expenditure per student,<br> primary (% of GDP per capita)</td>
+                <td><input type="range" id="educationImportance" value="10" min="0" max="10"></td>
+            </tr>
+            <tr>
+                <td><div class="legend" id="legendResearch"></div></td>
+                <td>Research and development <br>expenditure (% of GDP)</td>
+                <td><input type="range" id="researchImportance" value="10" min="0" max="10"></td>
+            </tr>
+            <tr>
+                <td><div class="legend" id="legendInternet"></div></td>
+                <td>Internet users (%)</td>
+                <td><input type="range" id="internetImportance" value="10" min="0" max="10"></td>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><button id="drawButton" type="button" onclick="drawVisualization()">Redraw visualization</button></td>
+            </tr>
+        </table>
+    </div>
+    <p><svg id="timeLine" class="chart"></svg></p>
     <script src="js/chloropleth.js"></script>
     <script src="js/timeLine.js"></script>
 </body>

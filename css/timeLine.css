@@ -125,3 +125,76 @@ div.colorFixer.orange {
   left: 235px;
   background: #ff7f00;
 }
+
+h3.education {
+  color: #f9a65a;
+}
+
+h3.research {
+  color: #9e66ab;
+}
+
+h3.internet {
+  color: #599ad3;
+}
+
+div.legend {
+  width: 30px;
+  height: 30px;
+}
+
+div#legendEducation {
+  background: #f9a65a;
+}
+
+div#legendResearch {
+  background: #9e66ab;
+}
+
+div#legendInternet {
+  background: #599ad3;
+}
+
+#simpleTimeLine {
+    position: absolute;
+    top: 78px;
+    left: 420px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.internetLine {
+  fill: none;
+  stroke-width: 1.5px;
+  stroke: #599ad3;
+}
+
+.educationLine {
+  fill: none;
+  stroke-width: 1.5px;
+  stroke: #f9a65a;
+}
+
+.researchLine {
+  fill: none;
+  stroke-width: 1.5px;
+  stroke: #9e66ab;
+}
+
+line#internetLine {
+}
+
+.axis text {
+  fill: white;
+  font-size: 11px;
+}
+
