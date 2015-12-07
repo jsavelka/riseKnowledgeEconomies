@@ -442,8 +442,8 @@ function insertTooltipTemplate(d, year) {
             tooltip.html("");
             insertTooltipTemplate(d, year);
             insertTooltipColorFixer(d);
-            //someFunctionCall(d, year, countries); //d is the selected country, year is the selected year, countries is all the data
-        });
+			makeChoropleth(d, year, countries)
+		});
 }
 
 function insertTooltipColorFixer(d) {

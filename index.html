@@ -5,7 +5,12 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/chloropleth.css">
     <link rel="stylesheet" type="text/css" href="css/timeLine.css">
+	<link rel="stylesheet" type="text/css" href="css/simple-slider-volume.css">
     <script src="js/d3.min.js" charset="utf-8"></script>
+	<script src="js/topojson.min.js"></script>
+	<script src="js/datamaps.world.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/simple-slider.js"></script>
     <title>Rise of Knowledge-based Economies</title>
 </head>
 <body>
@@ -34,7 +39,15 @@
         </table>
     </div>
     <p><svg id="timeLine" class="chart"></svg></p>
-    <script src="js/chloropleth.js"></script>
+	<div id="choropleth">
+		<div id="slider">
+			<h2 id="year">Year</h2>
+			<input id="choroSlider" type="text" data-slider="true" data-slider-range="1998,2012" 
+				data-slider-step="1" data-slider-snap="true" data-slider-theme="volume">
+		</div>
+		<div id="map"></div>
+	</div>
+    <script src="js/choropleth.js"></script>
     <script src="js/timeLine.js"></script>
 </body>
 </html>

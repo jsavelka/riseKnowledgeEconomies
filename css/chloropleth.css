@@ -1,0 +1,28 @@
+#map {
+	position: relative; 
+	width: 899px;
+	height: 450px;
+	margin:0px;
+	padding: 0px;
+}
+
+#choropleth {
+	width: 900px;
+	height: 500px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+#slider {
+	margin: 0px 100px;
+}
+
+#yearBox {
+	margin: 0px;
+	padding: 0px;
+}
+
+h2 {
+	margin: 0px auto 0px auto;
+	padding: 0px;
+}
