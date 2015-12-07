@@ -473,7 +473,7 @@ function insertTooltipColorFixer(d) {
 
 function insertTooltipContent(d, year) {
     var home = "<h1 align='center'><b>" + d.name + " (" + d.code  + ")" + " in " + year + "</b></h1>" +
-        "<h3 class='education'>Government expenditure per student,<br> primary(% of GDP per capita)</h3>" +
+        "<h3 class='education'>Government expenditure per student,<br> primary (% of GDP per capita)</h3>" +
         "<p><div>Raw percentage: " + d[year].education.toFixed(1) + "%</div>" +
         "<div>Difference to the best in " + year + ": " + (d[year].education - educationYearlyMaxes[year]).toFixed(1) + "%</div>" +
         "<div>Difference to the mean in " + year + ": " + (d[year].education - educationYearlyMeans[year]).toFixed(1) + "%</div>" +
