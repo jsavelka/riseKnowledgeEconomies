@@ -1,3 +1,9 @@
+#offscreen {
+	position: fixed;
+	left: -1000;
+	overflow: none;
+}
+
 #map {
 	position: relative; 
 	width: 899px;
@@ -7,22 +13,28 @@
 }
 
 #choropleth {
+	position: relative;
 	width: 900px;
 	height: 500px;
 	border: 1px solid black;
 	text-align: center;
+	position: fixed;
+	left: -1000;
 }
 
 #slider {
+	position: relative;
 	margin: 0px 100px;
 }
 
 #yearBox {
+	position: relative;
 	margin: 0px;
 	padding: 0px;
 }
 
 h2 {
+	position: relative;
 	margin: 0px auto 0px auto;
 	padding: 0px;
 }

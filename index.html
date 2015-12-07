@@ -39,13 +39,15 @@
         </table>
     </div>
     <p><svg id="timeLine" class="chart"></svg></p>
-	<div id="choropleth">
-		<div id="slider">
-			<h2 id="year">Year</h2>
-			<input id="choroSlider" type="text" data-slider="true" data-slider-range="1998,2012" 
-				data-slider-step="1" data-slider-snap="true" data-slider-theme="volume">
+	<div id="offScreen">
+		<div id="choropleth">
+			<div id="slider">
+				<h2 id="year">Year</h2>
+				<input id="choroSlider" type="text" data-slider="true" data-slider-range="1998,2012" 
+					data-slider-step="1" data-slider-snap="true" data-slider-theme="volume">
+			</div>
+			<div id="map"></div>
 		</div>
-		<div id="map"></div>
 	</div>
     <script src="js/choropleth.js"></script>
     <script src="js/timeLine.js"></script>
