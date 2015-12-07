@@ -65,7 +65,7 @@ function makeChoropleth(country, year, countries) {
 		}
 	});
 	
-	$(countryClass).css({"stroke": "yellow"})
+	$(countryClass).css({"stroke": "yellow", "stroke-width":"2"})
 	$("#choroSlider").simpleSlider("setValue", year);
 	document.getElementById("year").innerHTML = year;
 	$("#choropleth").appendTo(".tooltip");

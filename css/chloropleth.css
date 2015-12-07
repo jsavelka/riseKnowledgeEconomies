@@ -6,16 +6,17 @@
 
 #map {
 	position: relative; 
-	width: 899px;
-	height: 450px;
+	width: 100%;
+	height: 550px;
 	margin:0px;
 	padding: 0px;
 }
 
 #choropleth {
 	position: relative;
-	height: 500px;
-	border: 1px solid black;
+	width: 1010px;
+	height: 560px;
+	border: none;
 	text-align: center;
 	position: fixed;
 	left: -1000;
@@ -23,7 +24,7 @@
 
 #slider {
 	position: relative;
-	margin: 0px 100px;
+	margin: 0px 131px;
 }
 
 #yearBox {
@@ -36,4 +37,8 @@ h2 {
 	position: relative;
 	margin: 0px auto 0px auto;
 	padding: 0px;
+}
+
+.hoverinfo {
+	color: black;
 }
