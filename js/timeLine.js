@@ -419,7 +419,6 @@ function insertTooltipTemplate(d, year) {
         .attr("class", "tooltipButton")
         .text("| main ")
         .on("click", function() {
-			$("#offScreen").empty();
 			$("#choropleth").appendTo("#offScreen");
             tooltip.html("");
             insertTooltipContent(d, year);
@@ -435,7 +434,6 @@ function insertTooltipTemplate(d, year) {
             insertTooltipTemplate(d, year);
             insertTooltipColorFixer(d);
 			makeChoropleth(d, year, countries);
-            console.log('been here');
 		});
 }
 
