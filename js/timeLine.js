@@ -201,16 +201,6 @@ function makeYear(year) {
             insertTooltipTemplate(d, year);
             insertTooltipColorFixer(d);
             createSimpleTimeLine(d.name, "x");
-            tooltip.select("#tooltipTimeline")
-                .on("click", function() {
-                    div.html("<h1>Lorem ipsum</h1>");
-                    insertTooltipTemplate();
-                });
-            tooltip.select("#tooltipHome")
-                .on("click", function() {
-                    div.html(home);
-                    insertTooltipTemplate();
-                });
         });
 
     // background rectangle for a single country
@@ -442,7 +432,8 @@ function insertTooltipTemplate(d, year) {
             tooltip.html("");
             insertTooltipTemplate(d, year);
             insertTooltipColorFixer(d);
-			makeChoropleth(d, year, countries)
+			makeChoropleth(d, year, countries);
+            console.log('been here');
 		});
 }
 
@@ -469,7 +460,7 @@ function insertTooltipColorFixer(d) {
 
 function insertTooltipContent(d, year) {
     var home = "<h1 align='center'><b>" + d.name + " (" + d.code  + ")" + " in " + year + "</b></h1>" +
-        "<h3 class='education'>Government expenditure per student, primary<br>(% of GDP per capita)</h3>" +
+        "<h3 class='education'>Government expenditure per student,<br> primary(% of GDP per capita)</h3>" +
         "<p><div>Raw percentage: " + d[year].education.toFixed(1) + "%</div>" +
         "<div>Difference to the best in " + year + ": " + (d[year].education - educationYearlyMaxes[year]).toFixed(1) + "%</div>" +
         "<div>Difference to the mean in " + year + ": " + (d[year].education - educationYearlyMeans[year]).toFixed(1) + "%</div>" +
