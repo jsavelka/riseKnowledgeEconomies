@@ -12,7 +12,7 @@ function makeChoropleth(country, year, countries) {
 	
 	var yearData = new Array(), colorData = [], 
 	max = 0, diff,
-	countryClass = "." + country.code;
+	countryClass = ".datamaps-subunit." + country.code;
 
 	
 	//	Make array for the specified year.
