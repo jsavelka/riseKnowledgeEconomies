@@ -60,7 +60,9 @@ var countries,        // Cannot instantiate before the data are processed
     countryDisp = d3.select("body")
         .append("div")
         .attr("class", "countryDisp")
-        .style("opacity", 0);
+        .style("opacity", 0),
+    inChoropleth = false;
+    inTimeLine = false;
 
 // Setup of anything that can be set up before the data are received
 x.domain(years);
@@ -404,6 +406,7 @@ function insertTooltipTemplate(d, year) {
         .attr("id", "tooltipClose");
     closeButton.append("h1")
         .on("click", function() {
+            $("#choropleth").appendTo("#offScreen");
             tooltip.transition()
                 .duration(500)
                 .style("opacity", 0);
@@ -411,6 +414,8 @@ function insertTooltipTemplate(d, year) {
                 .delay(450)
                 .style("position", "fixed")
                 .style("left", "2000px");
+            inChoropleth = false;
+            inTimeLine = false;
         })
         .text("X");
     var menu = tooltip.append("div")
@@ -419,21 +424,29 @@ function insertTooltipTemplate(d, year) {
         .attr("class", "tooltipButton")
         .text("| main ")
         .on("click", function() {
-			$("#choropleth").appendTo("#offScreen");
-            tooltip.html("");
-            insertTooltipContent(d, year);
-            insertTooltipTemplate(d, year);
-            insertTooltipColorFixer(d);
-            createSimpleTimeLine(d.name, "x");
+            inChoropleth = false;
+            if (inTimeLine === false) {
+                $("#choropleth").appendTo("#offScreen");
+                tooltip.html("");
+                insertTooltipContent(d, year);
+                insertTooltipTemplate(d, year);
+                insertTooltipColorFixer(d);
+                createSimpleTimeLine(d.name, "x");
+                inTimeLine = true;
+            }
         });
     menu.append("span")
         .attr("class", "tooltipButton")
         .text("| choropleth |")
         .on("click", function() {
-            tooltip.html("");
-            insertTooltipTemplate(d, year);
-            insertTooltipColorFixer(d);
-			makeChoropleth(d, year, countries);
+            inTimeLine = false;
+            if (inChoropleth === false) {
+                tooltip.html("");
+                insertTooltipTemplate(d, year);
+                insertTooltipColorFixer(d);
+			    makeChoropleth(d, year, countries);
+                inChoropleth = true;
+            }
 		});
 }
 
