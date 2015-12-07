@@ -1,0 +1,20 @@
+h1, #description, #legends {
+	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+
+#description {
+	width: 700px;
+	border: none;
+	height: 150px;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 35px;
+}
+
+#legends {
+	width:480px;
+	float: left;
+	background: white;
+	border: 1px solid gray;
+	margin-bottom: 35px;
+}
