@@ -68,12 +68,11 @@ function makeChoropleth(country, year, countries) {
 	$(countryClass).css({"stroke": "yellow"})
 	$("#choroSlider").simpleSlider("setValue", year);
 	document.getElementById("year").innerHTML = year;
+	$("#choropleth").appendTo(".tooltip");
 }
 
 $("#choroSlider").bind("slider:changed", function (event, data) {
 	makeChoropleth(gCountry, data.value, gCountries);
 });
-
-
 
 function round(num) { return Math.round(num*10)/10; }
